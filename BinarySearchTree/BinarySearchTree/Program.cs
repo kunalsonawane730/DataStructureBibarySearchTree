@@ -16,3 +16,4 @@ binarytree.InsertingNode(16);
 binarytree.InsertingNode(63);
 binarytree.InsertingNode(67);
 binarytree.Display();
+binarytree.SearchMethod(63);

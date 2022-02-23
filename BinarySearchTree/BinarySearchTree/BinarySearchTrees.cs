@@ -71,5 +71,31 @@ namespace BinarySearchTree
             Console.WriteLine("Now Elements are:");
             Display(rootNode);
         }
+        public void SearchMethod(int element)
+        {
+            if (rootNode == null)
+            {
+                Console.WriteLine("Array is empty.");
+            }
+            if (rootNode.Equals(element))
+            {
+                Console.WriteLine("Match found");
+            }
+            if (rootNode.CompareTo(element))
+            {
+
+                if (rootNode.Rightside.Equals(element))
+                {
+                    Console.WriteLine("Match found");
+                }
+            }
+            if (rootNode.CompareTo(element))
+            {
+                if (rootNode.Leftside.Equals(element))
+                {
+                    Console.WriteLine("Match found");
+                }
+            }
+        }
     }
 }
