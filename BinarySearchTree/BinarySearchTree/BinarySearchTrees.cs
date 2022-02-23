@@ -68,6 +68,7 @@ namespace BinarySearchTree
 
         public void Display()
         {
+            Console.WriteLine("Now Elements are:");
             Display(rootNode);
         }
     }
